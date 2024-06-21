@@ -1,0 +1,116 @@
+body {
+    background-color: rgba(234, 228, 222, 0.737);
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin: 0;
+    padding: 0;
+}
+
+.hotbar {
+    width: 1865px;
+    height: 80px;
+    background-color: rgba(0, 89, 255, 0.697);
+}
+
+.sidebar {
+    width: 300px;
+    height: 870px;
+    background-color: rgba(0, 0, 0, 0.754);
+}
+
+.logosenai {
+    position: absolute;
+    z-index: 1;
+    transform: scale(0.1);
+    top: -193px;
+    left: -750px;
+
+}
+
+.profile {
+    position: absolute;
+    z-index: 1;
+    transform: scale(0.15);
+    top: -90px;
+    left: 1690px;
+}
+
+.nomeprofessor {
+    position: absolute;
+    z-index: 1;
+    left: 1695px;
+    top: 15px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.backgroundupperbar {
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+    width: 1865px;
+    height: 70px;
+    top: 80px;
+    left: 300px;
+}
+
+.homeicon {
+    position: absolute;
+    z-index: 1;
+    transform: scale(0.15);
+    top: -15px;
+    left: 220px;
+    }
+
+.minhaturma {
+    position: absolute;
+    z-index: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 77px;
+    left: 390px;
+    font-size: 20px;
+}
+
+.background {
+    position: absolute;
+    z-index: 1;
+    background-color: gray;
+    height: 800px;
+    width: 1565px;
+    top: 150px;
+    left: 300px;
+}
+
+.seletor {
+    position: absolute;
+    z-index: 1;
+    top: 120px;
+    left: 418px;
+}
+
+.seta {
+    position: absolute;
+    z-index: 1;
+    top: -140px;
+    left: 305px;
+    transform: scale(0.07);
+}
+
+.turma {
+    position: absolute;
+    z-index: 1;
+    top: 87px;
+    left: 590px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+
+.tresbarras {
+    position: absolute;
+    z-index: 1;
+    transform: scale(0.06);
+    top: -141px;
+    left: 1560px;
+}
+

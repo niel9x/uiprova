@@ -1,0 +1,132 @@
+/* styles.css */
+
+/* Configuração do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #161616;
+    color: white;
+}
+
+header {
+    background-color: white;
+}
+
+.header-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-main h1 {
+    color: black;
+}
+
+.union {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+}
+
+.union h1 {
+    color: black;
+}
+
+/* Estilização do footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.hotbar {
+    height: 4px;
+    background-color: #ff6600;
+    width: 100%;
+}
+
+.logosenai, .profile {
+    height: 50px;
+    margin: 10px;
+}
+
+/* Estilização para o nome do professor */
+.nomeprofessor {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    font-size: 24px;
+}
+
+/* Estilização da barra lateral esquerda */
+
+
+
+/* Estilização do dashboard */
+.dashboard {
+    padding: 20px;
+}
+
+.backgroundupperbar, .background {
+    
+    width: calc(100% - 20%);
+    margin-left: 20%;
+    position: relative;
+}
+
+.homeicon, .seta, .tresbarras {
+    width: 50px;
+    height: 50px;
+}
+
+.minhaturma, .turma {
+    margin: 10px 0;
+    color: white;
+}
+
+/* Estilização do seletor de turmas */
+.seletor {
+    padding: 10px;
+    margin: 20px 0;
+    width: 200px;
+}
+
+/* Estilização da tabela de notas */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+    
+}
+
+#notas-table {
+    margin-bottom: 100px;
+}
+
+

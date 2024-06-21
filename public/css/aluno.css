@@ -1,0 +1,10 @@
+body {
+    background-color: #161616;
+}
+
+.my-classes {
+    background-color: white;
+    padding:50px;
+    border-radius: 8px;
+}
+

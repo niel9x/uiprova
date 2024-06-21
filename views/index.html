@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login home-page</title>
+</head>
+<body>
+    <section>
+        <img src="images/wallhaven-exrqrr.jpg" alt="example">
+        <div class="apresentation">
+            <span>A&D Rede de ensino<br>A maior da rua lá de casa</span>
+            <h1>Faça parte desta rede de ensino!</h1>
+            <a class="matricula" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">matricule-se já</a>
+        </div>
+        <div class="form-shc">
+            <form method="post" action="/submit-form" id="login-form">
+                <span class="opt">SELECIONE SUA FORMA DE LOGIN</span>
+                <div class="pop-up-header">
+                    <div class="aluno-form">
+                        <label for="aluno"> Dados do aluno</label>
+                        <input type="radio" name="role" id="form-id1" value="aluno">
+                    </div>
+                    <div class="teach-form">
+                        <label for="professor">Dados do professor</label>
+                        <input type="radio" name="role" id="form-id2" value="professor">
+                    </div>
+                </div>
+                <div class="infos">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" placeholder="Insira o email do usúario" required>
+                    <label for="senha">Senha:</label>
+                    <input type="password" name="senha" placeholder="Insira a senha do usúario" required>
+                    <input type="submit" name="envio" value="Enviar">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <div id="error-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="error-message"></p>
+        </div>
+    </div>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
